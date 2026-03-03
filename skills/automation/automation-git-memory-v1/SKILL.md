@@ -2,8 +2,8 @@
 
 - **Version:** 1
 - **Domain:** automation
-- **Status:** staging
-- **Success Rate:** N/A (new)
+- **Status:** production
+- **Success Rate:** 100% (3/3 runs)
 - **Last Modified:** 2026-03-03
 - **Author:** Elkin
 
@@ -134,3 +134,5 @@ TELEGRAM_BOT_TOKEN=xxx TELEGRAM_CHAT_ID=yyy REPO_PATH=~/.openclaw/workspace ./ru
 
 - **v1** — Initial release: full pull→stage→commit→push cycle, backup on failure,
            Telegram reporting, structured commit message generation, dry-run + pull-only modes
+- **v1.1** — Wired Telegram credentials from gateway config via `skills/credentials.env`;
+             promoted to production after 3/3 successful test runs

@@ -1,0 +1,4 @@
+# Never commit credentials
+skills/credentials.env
+*.env
+*.secret

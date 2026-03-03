@@ -12,6 +12,13 @@
 
 set -euo pipefail
 
+# ── Load shared credentials ──────────────────────────────────────────────────
+CREDS_FILE="$(dirname "$(realpath "$0")")/../../credentials.env"
+if [[ -f "$CREDS_FILE" ]]; then
+  # shellcheck source=/dev/null
+  source "$CREDS_FILE"
+fi
+
 # ── Config ───────────────────────────────────────────────────────────────────
 REPO="${REPO_PATH:-$HOME/.openclaw/workspace}"
 BACKUP_DIR="$HOME/.openclaw/backup"
