@@ -1,17 +1,3 @@
-# USER.md - About Your Human
-
-_Learn about the person you're helping. Update this as you go._
-
-- **Name:** K
-- **What to call them:** K
-- **Pronouns:** —
-- **Timezone:** UTC
-- **Notes:** Wants to connect workspace/brain to a GitHub repo
-
-## Context
-
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
-
----
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+# USER.md
+> Authoritative version: openclaw-brain/USER.md
+> This file is a pointer only. Read the brain version.
