@@ -1,0 +1,6 @@
+[submodule "repos/SecLists"]
+	path = repos/SecLists
+	url = https://github.com/danielmiessler/SecLists.git
+[submodule "repos/PayloadsAllTheThings"]
+	path = repos/PayloadsAllTheThings
+	url = https://github.com/swisskyrepo/PayloadsAllTheThings.git
